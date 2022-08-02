@@ -1,0 +1,155 @@
+#divlabel {
+    background-color: red;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Square Peg', cursive;
+
+    color: black;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+
+
+}
+
+
+
+#text {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Square Peg', cursive;
+    font-size: 2rem;
+
+
+}
+
+#requests {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+
+}
+
+body {
+    background-color: #3CCF4E;
+    margin: 0px;
+}
+
+
+#label {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Square Peg', cursive;
+    font-size: 2rem;
+
+
+
+
+
+}
+
+#words {
+
+    position: absolute;
+    top: 75%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Square Peg', cursive;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+#start {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-top: 10px;
+    padding: 0.5rem;
+
+    transform: translate(-50%, -50%);
+
+
+
+}
+
+/* #stop {
+    position: absolute;
+    top: 80%;
+    left: 53%;
+    margin-top: 10px;
+    padding: 0.5rem;
+
+    transform: translate(-50%, -50%);
+} */
+
+
+#reader-wrapper {
+    /* align-items: flex-end; */
+    align-items: flex-start;
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    justify-content: flex-start;
+    color: #816797;
+    font-family: 'Orbitron', sans-serif;
+    min-height: 70vh;
+}
+
+#summary {
+    margin-left: 40rem;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+}
+
+
+
+@media (max-width : 732px) {
+    #summary {
+        margin-left: 0px;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 1rem;
+    }
+
+
+    #start {
+        position: absolute;
+        top: 80%;
+        left: 43%;
+        margin-top: 10px;
+        padding: 0.5rem;
+
+        transform: translate(-50%, -50%);
+
+
+
+    }
+
+
+
+}
+
+
+/* #line {
+    align-items: flex-start;
+    display: flex;
+    font-size: 2.5em;
+    justify-content: flex-start;
+    min-height: 70vh;
+} */
